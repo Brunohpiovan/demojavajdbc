@@ -37,11 +37,11 @@ public class Program2 {
 				System.out.println(obj);
 			}
 			
-			//System.out.println("\n===== TEST 5 : department delete =====");
-			//System.out.println("Informe o id do departamento que deseja excluir: ");
-			//int id = sc.nextInt();
-			//departmentDao.deleteById(id);
-			//System.out.println("Delete completed.");
+			System.out.println("\n===== TEST 5 : department delete =====");
+			System.out.println("Informe o id do departamento que deseja excluir: ");
+			int id = sc.nextInt();
+			departmentDao.deleteById(id);
+			System.out.println("Delete completed.");
 			
 			sc.close();
 	}

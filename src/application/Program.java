@@ -41,7 +41,7 @@ public class Program {
 		
 		System.out.println("\n===== TEST 5 : seller update =====");
 		seller = sellerdao.findBYId(1);
-		seller.setName("Paula Tejano");
+		seller.setName("Leandro ferreira");
 		sellerdao.update(seller);
 		System.out.println("Update completed");
 	
